@@ -1,6 +1,6 @@
 import Quickshell
 import QtQuick
-import "components"
+import "widgets"
 
 PanelWindow {
   color: "transparent"
@@ -29,5 +29,9 @@ PanelWindow {
     anchors.verticalCenter: parent.verticalCenter
     anchors.rightMargin: 7
     spacing: 5
+
+    UtilityContainer {}
+    MemoryCpuContainer {}
+    Power {}
   }
 }

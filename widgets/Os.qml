@@ -17,6 +17,6 @@ Rectangle {
     anchors.centerIn: parent
     text: "" 
     font.family: "Hack Nerd Font"
-    font.pixelSize: 12
+    font.pixelSize: 13
   }
 }

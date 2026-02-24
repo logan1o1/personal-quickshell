@@ -21,17 +21,11 @@ Rectangle {
         model: Hyprland.workspaces
         
         Rectangle {
-            width: 13
-            height: 13
-            radius: 6 
+            width: modelData.focused && 27 || 14
+            height: 14
+            radius: 7 
             
-            // Text {
-            //   text: modelData.focused ? " " : " "
-            //   font.family: "Hack Nerd Font"
-            //   font.pixelSize: 14
-            //   color: modelData.focused && "#2196F3" || "#11d6bf"
-            // }  
-            color: modelData.focused && "#2196F3" || "#11d6bf"
+            color: modelData.focused && "#98cbff" || "#b9c8da"
             
             MouseArea {
                 anchors.fill: parent

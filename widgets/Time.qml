@@ -16,13 +16,13 @@ Rectangle {
     id: timeText
     color: "white"
     anchors.centerIn: parent
-    text: Qt.formatDateTime(new Date(), "MMM ddd d, h:mm AP")
+    text: Qt.formatDateTime(new Date(), "h:mm AP, ddd MMM d")
     
     Timer {
         interval: 1000
         running: true
         repeat: true
-        onTriggered: root.text = Qt.formatDateTime(new Date(), "MMM ddd d, h:mm AP")
+        onTriggered: root.text = Qt.formatDateTime(new Date(), "h:mm AP, ddd MMM d")
     }
   }
 }

@@ -30,6 +30,7 @@ PanelWindow {
     anchors.rightMargin: 7
     spacing: 5
 
+    NetworkSpeed {}
     UtilityContainer {}
     MemoryCpuContainer {}
     Power {}

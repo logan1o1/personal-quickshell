@@ -45,7 +45,7 @@ Rectangle {
           color: "white"
           text: `  ${root.memPercent.toFixed(0)}%` 
           font.family: "Hack Nerd Font"
-          font.pixelSize: 14
+          font.pixelSize: 13
         }
 
         Text {
@@ -53,7 +53,7 @@ Rectangle {
           color: "white"
           text: "|"
           font.family: "Hack Nerd Font"
-          font.pixelSize: 14
+          font.pixelSize: 13
         }
 
         Text {
@@ -61,7 +61,7 @@ Rectangle {
           color: "white"
           text: `󰍛 ${root.cpuPercent.toFixed(0)}%` 
           font.family: "Hack Nerd Font"
-          font.pixelSize: 14
+          font.pixelSize: 13
         }
     }
 }

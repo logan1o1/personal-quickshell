@@ -74,7 +74,7 @@ function calculateNetworkSpeed(text) {
     Row {
         id: row
         anchors.centerIn: parent
-        spacing: 5
+        spacing: 3
 
 
         Row {
@@ -90,7 +90,7 @@ function calculateNetworkSpeed(text) {
         Text {
           id: download
           color: "white"
-          text: `${root.downloadSpeed.toFixed(2)} KB/s` 
+          text: `${root.downloadSpeed.toFixed(2)}KB/s` 
           font.family: "Hack Nerd Font"
           font.pixelSize: 13
         }
@@ -109,7 +109,7 @@ function calculateNetworkSpeed(text) {
         Text {
           id: upload
           color: "white"
-          text: `${root.uploadSpeed.toFixed(2)} KB/s` 
+          text: `${root.uploadSpeed.toFixed(2)}KB/s` 
           font.family: "Hack Nerd Font"
           font.pixelSize: 13
         }

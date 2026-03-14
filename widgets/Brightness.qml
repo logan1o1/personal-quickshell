@@ -7,5 +7,5 @@ Text {
   color: "white"
   text: "󰃠"
   font.family: "Hack Nerd Font"
-  font.pixelSize: 14
+  font.pixelSize: 13
 }

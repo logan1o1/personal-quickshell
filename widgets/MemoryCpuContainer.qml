@@ -1,6 +1,5 @@
 import Quickshell
 import QtQuick
-import "."
 import Quickshell.Io
 
 Rectangle {
@@ -48,20 +47,20 @@ Rectangle {
           font.pixelSize: 13
         }
 
-        Text {
-          id: separator
-          color: "white"
-          text: "|"
-          font.family: "Hack Nerd Font"
-          font.pixelSize: 13
-        }
-
-        Text {
-          id: cpu
-          color: "white"
-          text: `󰍛 ${root.cpuPercent.toFixed(0)}%` 
-          font.family: "Hack Nerd Font"
-          font.pixelSize: 13
-        }
+        // Text {
+        //   id: separator
+        //   color: "white"
+        //   text: "|"
+        //   font.family: "Hack Nerd Font"
+        //   font.pixelSize: 13
+        // }
+        //
+        // Text {
+        //   id: cpu
+        //   color: "white"
+        //   text: `󰍛 ${root.cpuPercent.toFixed(0)}%` 
+        //   font.family: "Hack Nerd Font"
+        //   font.pixelSize: 13
+        // }
     }
 }

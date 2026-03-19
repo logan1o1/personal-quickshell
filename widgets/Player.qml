@@ -1,5 +1,6 @@
 import Quickshell
 import QtQuick
+import Quickshell.Services.Mpris 
 
 Rectangle {
   id: root
@@ -14,6 +15,6 @@ Rectangle {
     id: players
     color: "white"
     anchors.centerIn: parent
-    text: "player"
+    text: "Player"
   }
 }

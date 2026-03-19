@@ -21,7 +21,6 @@ PanelWindow {
 
     Os {}
     Hyprland {}
-    MemoryCpuContainer {}
     Player {}
   }
   Time {}
@@ -33,6 +32,7 @@ PanelWindow {
     spacing: 5
 
     NetworkSpeed {}
+    MemoryCpuContainer {}
     UtilityContainer {}
     Power {}
   }

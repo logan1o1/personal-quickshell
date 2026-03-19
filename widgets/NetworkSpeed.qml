@@ -96,23 +96,23 @@ function calculateNetworkSpeed(text) {
         }
         }
 
-        Row {
-          spacing: 2
-        Text {
-          id: uploadIcon
-          color: "white"
-          text: ""
-          font.family: "Hack Nerd Font"
-          font.pixelSize: 13
-        }
-
-        Text {
-          id: upload
-          color: "white"
-          text: `${root.uploadSpeed.toFixed(2)}KB/s` 
-          font.family: "Hack Nerd Font"
-          font.pixelSize: 13
-        }
-        }
+        // Row {
+        //   spacing: 2
+        // Text {
+        //   id: uploadIcon
+        //   color: "white"
+        //   text: ""
+        //   font.family: "Hack Nerd Font"
+        //   font.pixelSize: 13
+        // }
+        //
+        // Text {
+        //   id: upload
+        //   color: "white"
+        //   text: `${root.uploadSpeed.toFixed(2)}KB/s` 
+        //   font.family: "Hack Nerd Font"
+        //   font.pixelSize: 13
+        // }
+        // }
     }
 }
